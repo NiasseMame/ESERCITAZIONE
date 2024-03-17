@@ -1,0 +1,48 @@
+.header .wrap {
+margin: 2.5rem 1.5rem;
+align-self: center;
+display: flex;
+justify-content: space-between;
+}
+
+.flex {
+margin: 3rem 2rem;
+display: block;
+background: lightblue;
+border: 2rem solid purple;
+}
+
+.grid {
+margin: 3rem 2rem;
+background: lightcyan;
+border: 0 solid;
+display: grid;
+grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+grid-template-rows: 7rem 7rem 7rem 7rem;
+}
+
+.lista {
+margin: 1rem;
+border: solid black;
+background-color: brown;
+width: 20rem;
+height: 10rem;
+grid-column: 3;
+grid-row: 3;
+}
+
+.immagine{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+
+.testo {
+margin: 1rem;
+border: solid black;
+background-color: lightgreen;
+width: 20rem;
+height: 5rem;
+grid-row: 1;
+}
